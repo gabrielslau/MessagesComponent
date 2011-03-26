@@ -27,6 +27,20 @@ pre. $this->Message->success('Usuário deletado com sucesso',
 	null,
 	true); // Redireciona para a página anterior (referer)
 
+h1. Tipos de mensagens
+
+Mensagem de informação:
+
+pre. $this->Message->info('Você tem 5 notícias não lidas');
+
+Mensagem de sucesso:
+
+pre. $this->Message->success('Cadastro efetuado com sucesso');
+
+Mensagem de erro:
+
+pre. $this->Message->error('Usuário não encontrado!');
+
 h1. Mais Informações
 
 Para mais informações, consulte o código-fonte do arquivo. :)
