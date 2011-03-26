@@ -1,8 +1,8 @@
-h1. 1. Descrição
+h1. Descrição
 
 Esse component foi criado para padronizar a exibição de "mensagens de retorno" (sucesso, erro e informação) que - normalmente - são acompanhadas de um redirecionamento.
 
-h1. 2. Instalação
+h1. Instalação
 
 1. Copie o arquivo "messages.php":https://github.com/TiuTalk/MessagesComponent/blob/master/messages.php para a pasta *APP/controllers/components/*
 2. Adicione o componente na sua lista de componentes em um dos seus Controllers:
@@ -10,15 +10,15 @@ h1. 2. Instalação
 pre. // Apenas o MessagesComponent
 $components = array('Message');
 
-// MessagesComponent acompanhado de outros componentes
+pre. // MessagesComponent acompanhado de outros componentes
 $components = array('Session', 'Cookie', 'Message');
 
-h1. 3. Uso
+h1. Uso
 
 Use-o dentro de uma das suas actions:
 
-$this->Message->info('Seja bem vindo, Usuário!');
+pre. $this->Message->info('Seja bem vindo, Usuário!');
 
-h1. 4. Mais Informações
+h1. Mais Informações
 
 Para mais informações, consulte o código-fonte do arquivo. :)
