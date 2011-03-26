@@ -19,6 +19,14 @@ Use-o dentro de uma das suas actions:
 
 pre. $this->Message->info('Seja bem vindo, Usuário!');
 
+pre. $this->Message->info('Seja bem vindo, Usuário!',
+	array('variavel' => 'valor'),
+	array('controller' => 'news', 'action' => 'index'));
+
+pre. $this->Message->success('Usuário deletado com sucesso',
+	null,
+	true); // Redireciona para a página anterior (referer)
+
 h1. Mais Informações
 
 Para mais informações, consulte o código-fonte do arquivo. :)
