@@ -41,17 +41,17 @@ class MessagesComponent extends Object {
 	/**
 	 * Elemento da mensagem de informação
 	 */
-	const ELEMENT_INFO = 'messages/info-02';
+	const ELEMENT_INFO = 'messages/info';
 
 	/**
 	 * Elemento da mensagem de sucesso
 	 */
-	const ELEMENT_SUCCESS = 'messages/success-02';
+	const ELEMENT_SUCCESS = 'messages/success';
 
 	/**
 	 * Elemento da mensagem de erros
 	 */
-	const ELEMENT_ERROR = 'messages/error-02';
+	const ELEMENT_ERROR = 'messages/error';
 
 	/**
 	 * Inicializa o componente salvando o controller
